@@ -1,4 +1,4 @@
-
+// Crea un bloque que representa un caracter
 function createChar()
 {
     const charContainer = document.createElement('div');
@@ -33,4 +33,5 @@ function createChar()
 
     charList.push(charContainer);
     document.getElementById('container').appendChild(charContainer);
+    return charContainer;
 }

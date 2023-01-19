@@ -1,27 +1,37 @@
 body
 {
+    color: white;
     background-color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 .charContainer
 {
-    margin: 0.5ch;
+    margin: 0.2rem;
     display: inline-block;
 }
 
 .char
 {
     display: grid;
-    grid-gap: 0.2ch;
-    width: 6ch;
+    grid-gap: 0.1rem;
 }
 
 .dot
 {
-    width: 1ch;
-    height: 1ch;
-    border-radius: 2rem;
-    background-color: dimgray;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.1rem;
+    background-color: rgb(70, 70, 70);
     display: inline-grid;
 }
 
